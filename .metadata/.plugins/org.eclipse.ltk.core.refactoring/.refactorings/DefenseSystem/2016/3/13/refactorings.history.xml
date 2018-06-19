@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;LocationList.java&apos; to &apos;DefenseSystem/src/defenseSystem&apos;&#x0D;&#x0A;- Original project: &apos;DefenseSystem&apos;&#x0D;&#x0A;- Destination element: &apos;DefenseSystem/src/defenseSystem&apos;&#x0D;&#x0A;- Original element: &apos;defenseSystem_levels.LocationList.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;defenseSystem" element1="/src&lt;defenseSystem_levels{LocationList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1459015758559" units="1" version="1.0"/>
+</session>

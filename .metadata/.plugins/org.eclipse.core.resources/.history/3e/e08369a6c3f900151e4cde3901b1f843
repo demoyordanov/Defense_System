@@ -1,0 +1,40 @@
+package asset_code;
+
+import defenseSystem.Handler;
+import defenseSystem.ID;
+import defenseSystem.Sprite;
+
+public class standard_explosion extends Sprite{
+
+	public int lifetime = 0;
+	public int maxLifetime = 100;
+	public Handler handler;
+	public standard_explosion(int x, int y, ID id, Handler handler) {
+		super(x, y, id);
+		this.handler = handler;
+		uploadImage("explosion.png");
+	}
+	@Override
+	public void tick() {
+		// TODO Auto-generated method stub
+		if(lifetime<maxLifetime)
+		{
+			x-=0.16;
+			y-=0.16;
+			setHeight(0.33);
+			setWidth(0.33);
+			lifetime++;
+		}
+		else if(lifetime >= maxLifetime)
+		{
+			handler.removeObject(this);
+		}
+		
+	}
+	@Override
+	public void collission() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

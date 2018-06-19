@@ -1,0 +1,14 @@
+package defenseSystem;
+
+public class Universal {
+	
+	public static final int WIDTH = 1024;
+	public static final int HEIGHT = 600;
+	public static final int DELAY = 1000;
+	public static final int PERIOD = 10;
+	public static int globalDiff = 1;
+	public static int mX = 0;
+	public static int mY = 0;
+	
+
+}
